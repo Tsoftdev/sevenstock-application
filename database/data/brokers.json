@@ -1,0 +1,24 @@
+[
+    {
+      "id": 1,
+      "brokerName": "키움증권",
+      "createdBy": "1",
+      "isActive": "Y",
+      "isDelete": "N",
+      "isApproved": "Y",
+      "created_at": "2021-09-17 01:24:06",
+      "updated_at": "2021-09-17 01:24:06"
+
+    },
+    {
+        "id": 2,
+        "brokerName": "삼성증권",
+        "createdBy": "1",
+        "isActive": "Y",
+        "isDelete": "N",
+        "isApproved": "Y",
+        "created_at": "2021-09-17 01:24:06",
+        "updated_at": "2021-09-17 01:24:06"
+    }
+
+  ]

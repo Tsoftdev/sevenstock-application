@@ -1,0 +1,13 @@
+[
+    {
+      "id": 1,
+      "name": "Admin",
+      "email": "admin@gmail.com",
+      "password": "$2a$12$xQHw2tKd8OJBraZbfw7K/.yG5.oEf.ReRknXC83DjE743jqEHE46O",
+      "created_at": "2021-09-17 01:24:06",
+      "updated_at": "2021-09-17 01:24:06",
+      "isActive": "Y",
+      "isDelete": "N"
+
+    }
+  ]

@@ -1,0 +1,34 @@
+[
+    {
+      "id": 1,
+      "routeName": "조선일보",
+      "createdBy": "1",
+      "isActive": "Y",
+      "isDelete": "N",
+      "isApproved": "Y",
+      "created_at": "2021-09-17 01:24:06",
+      "updated_at": "2021-09-17 01:24:06"
+
+    },
+    {
+        "id": 2,
+        "routeName": "중앙일보",
+        "createdBy": "1",
+        "isActive": "Y",
+        "isDelete": "N",
+        "isApproved": "Y",
+        "created_at": "2021-09-17 01:24:06",
+        "updated_at": "2021-09-17 01:24:06"
+    },
+    {
+        "id": 3,
+        "routeName": "C1823 이상정",
+        "createdBy": "1",
+        "isActive": "Y",
+        "isDelete": "N",
+        "isApproved": "Y",
+        "created_at": "2021-09-17 01:24:06",
+        "updated_at": "2021-09-17 01:24:06"
+    }
+
+  ]

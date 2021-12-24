@@ -1,0 +1,27 @@
+[
+    {
+      "id": 1,
+      "name": "Test",
+      "email":"test@gmail.com",
+      "age": "25",
+      "address": "Multiple address",
+      "gender": "M",
+      "city_id": "1",
+      "phonenumber1": "100234864",
+      "phonenumber2": "400234864",
+      "customerGroupID": "1",
+      "stockBroker": "1",
+      "AccountNumber": "1",
+      "routesOfKnownID": "1",
+      "createdBy": "1",
+      "updatedBy": "1",
+      "isActive": "Y",
+      "isDelete": "N",
+      "isApproved": "Y",
+      "groupid": "1",
+      "date": "2021-09-17",
+      "created_at": "2021-09-17 01:24:06",
+      "updated_at": "2021-09-17 01:24:06"
+
+    }
+  ]

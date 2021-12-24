@@ -1,0 +1,267 @@
+.about-main-wrapper {
+    height: 969px;
+    position: relative;
+    overflow: hidden;
+    z-index: 4;
+    margin-bottom: 70px;
+    @media(max-width: 1440px){
+        margin-bottom: 0;
+    }
+    @media(max-width: 600px){
+        height: 100vh;
+        min-height: 700px;
+    }
+
+    &::before {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        content: "";
+        background-image: url("../assets/images/Rectangle\ 25.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        z-index: -1;
+    }
+
+
+
+    // About Header
+    .about-header{
+        border: 1px solid transparent !important;
+        .about-header-top{
+            padding-top: 16px;
+        padding-bottom: 20px;
+            .about-navbar{
+                .nav-item{
+                    padding: 0 9px;
+                    .about-nav{
+
+                    }
+                }
+            }
+            .about-navbar-text{
+                margin-left: 26px;
+                a{
+
+                  
+                }
+
+            }
+        }
+    }
+
+    // About Header
+
+
+
+
+
+    // About-us-wrapper
+    .about-us-wrapper {
+        .about-us-inner {
+            width: 575px;
+            @media(max-width: 1024px){
+                margin: 0 auto;
+            }
+            @media(max-width: 600px){
+                width: 366px;
+            }
+            @media(max-width: 400px){
+                width: 100%;
+            }
+            h3 {
+                font-style: normal;
+                font-weight: bold;
+                font-size: 23px;
+                line-height: 164.8%;
+                color: #A5250A;
+                font-family: $kfont;
+                margin-top: 94px;
+                margin-bottom: 38px;
+                @media(max-width: 600px){
+                    font-size: 16px;
+                    margin-top: 70px;
+                    margin-bottom: 30px;
+                }
+                @media(max-width: 385px){
+                    font-size: 15px;
+                }
+                @media(max-width: 360px){
+                    font-size: 14px;
+                }
+                @media(max-width: 335px){
+                    font-size: 13px;
+                }
+            }
+
+            h1 {
+                font-style: normal;
+                font-weight: 900;
+                font-size: 55px;
+                line-height: 140.8%;
+                color: #2A263C;
+                font-family: $kfont;
+                position: relative;
+                margin-bottom: 35px;
+                @media(max-width: 600px){
+                    font-size: 32px;
+                    margin-bottom: 30px;
+                }
+                @media(max-width: 370px){
+                    font-size: 30px;
+                }
+
+                &::after {
+                    position: absolute;
+                    width: 264px;
+                    height: 8px;
+                    left: 0;
+                    bottom: -5px;
+                    content: "";
+                    background: #A5250A;
+                    @media(max-width: 600px){
+                        width: 151px;
+                        height: 5px;
+                    }
+                }
+            }
+
+            p {
+                font-style: normal;
+                font-weight: normal;
+                font-size: 18px;
+                line-height: 32px;
+                color: #838291;
+                margin-bottom: 140px;
+                @media(max-width: 600px){
+                    max-width: 366px;
+                    margin-bottom: 35px;
+                }
+            }
+
+            .bottom-note {
+                background: linear-gradient(90deg, #2A263C 0%, rgba(42, 38, 60, 0.86) 50.52%, #2A263C 100%);
+                width: 574px;
+                height: 170px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                position: relative;
+                @media(max-width: 600px){
+                    width: 366px;
+                    height: 102px;
+                }
+                @media(max-width: 400px){
+                    width: 100%;
+                }
+
+                h6 {
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 24px;
+                    line-height: 170.8%;
+                    color: #FFFFFF;
+                    font-family: $kfont;
+                    padding-left: 99px;
+                    margin-bottom: 0;
+                    @media(max-width: 600px){
+                        font-size: 16px;
+                        padding-left: 35px;
+                    }
+                }
+
+                .about-quote{
+                    position: absolute;
+                    left: 34px;
+                    top: 44px;
+                    content: "";
+                    @media(max-width: 600px){
+                        width: 24px;
+                        height: 24px;
+                        top: 24px;
+                    }
+                    @media(max-width: 365px){
+                        left: 25px;
+                    }
+                    @media(max-width: 340px){
+                        left: 15px;
+                    }
+                }
+            }
+        }
+
+        .about-main-image {
+            .main-image {
+                position: absolute;
+                right: 240px;
+                top: 0;
+                content: "";
+                z-index: -1;
+                @media(max-width: 1440px){
+                    right: 0;
+                }
+                @media(max-width: 1366px){
+                    display: none;
+                }
+
+
+            }
+            .main-image-1366{
+                display: none;
+                position: absolute;
+                right: 0;
+                top: 0;
+                content: "";
+                z-index: -1;
+                @media(max-width: 1366px){
+                    display: block;
+                }
+                @media(max-width: 1280px){
+                    display: none;
+                }
+            }
+            .main-image-1280{
+                display: none;
+                position: absolute;
+                right: 0;
+                top: 0;
+                content: "";
+                z-index: -1;
+                @media(max-width: 1280px){
+                    display: block;
+                }
+                @media(max-width: 1152px){
+                    display: none;
+                }
+            }
+            .main-image-1152{
+                display: none;
+                position: absolute;
+                right: 0;
+                top: 0;
+                content: "";
+                z-index: -1;
+                @media(max-width: 1152px){
+                    display: block;
+                }
+                @media(max-width: 1024px){
+                    display: none;
+                }
+            }
+        }
+    }
+
+    // About-us-wrapper
+}
+
+
+
+.nav-active{
+    color: #D03A3B !important;
+}
+
+
+

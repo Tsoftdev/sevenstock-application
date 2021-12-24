@@ -1,0 +1,34 @@
+[
+    {
+      "id": 1,
+      "groupName": "Group 1",
+      "createdBy": "1",
+      "isActive": "Y",
+      "isDelete": "N",
+      "isApproved": "Y",
+      "created_at": "2021-09-17 01:24:06",
+      "updated_at": "2021-09-17 01:24:06"
+
+    },
+    {
+        "id": 2,
+        "groupName": "Group 2",
+        "createdBy": "1",
+        "isActive": "Y",
+        "isDelete": "N",
+        "isApproved": "Y",
+        "created_at": "2021-09-17 01:24:06",
+        "updated_at": "2021-09-17 01:24:06"
+    },
+    {
+      "id": 3,
+      "groupName": "Group 3",
+      "createdBy": "1",
+      "isActive": "Y",
+      "isDelete": "N",
+      "isApproved": "Y",
+      "created_at": "2021-09-17 01:24:06",
+      "updated_at": "2021-09-17 01:24:06"
+    }
+
+  ]

@@ -1,0 +1,600 @@
+.mycontact-wrapper-full {
+    .mygrey-bg {
+        display: unset;
+        height: 174px;
+        padding-top: 35px;
+        border-bottom: 0px solid transparent;
+
+        @media(max-width: 1024px) {
+            height: 138px;
+        }
+
+        @media(max-width: 480px) {
+            height: 174px;
+        }
+
+        .mycontact-header {
+            display: unset;
+            width: unset;
+            grid-gap: unset;
+            padding: 0px 0px 0px 0px;
+            justify-self: unset;
+            text-align: left;
+
+            @media(max-width: 800px) {
+                text-align: center;
+            }
+
+            .ctop-text {
+                font-style: normal;
+                font-weight: bold;
+                font-size: 36px;
+                line-height: 52px;
+                color: #2A263C;
+                font-family: $kfont;
+                margin-bottom: 12px;
+
+                @media(max-width: 1024px) {
+                    font-size: 24px;
+                    line-height: 35px;
+                }
+
+                @media(max-width: 480px) {
+                    font-size: 26px;
+                    line-height: 38px;
+                }
+                @media(max-width: 375px){
+                    font-size: 24px;
+                }
+                @media(max-width: 343px){
+                    font-size: 22px;
+                }
+            }
+
+            .cbottom-text {
+                font-style: normal;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 26px;
+                color: #838291;
+                font-family: $kfont;
+
+                @media(max-width: 1024px) {
+                    font-size: 16px;
+                    line-height: 23px;
+                }
+
+                @media(max-width: 480px) {
+                    font-size: 18px;
+                    line-height: 26px;
+                    max-width: 290px;
+                    margin: 0 auto;
+                }
+            }
+        }
+    }
+
+    .ncontact-form {
+        margin-top: 30px;
+        padding-bottom: 194px;
+
+        @media(max-width: 1440px) {
+            margin-top: 41px;
+            padding-bottom: 100px;
+        }
+
+        @media(max-width: 414px) {
+            padding-bottom: 0px;
+        }
+
+        .nforms-container {
+            @media(max-width: 1366px) {
+                grid-template-columns: 766px 460px;
+                grid-gap: 60px;
+                width: 100%;
+            }
+
+            @media(max-width: 1280px) {
+                grid-template-columns: 680px 460px;
+            }
+
+            @media(max-width: 1152px) {
+                grid-template-columns: 552px 460px;
+                grid-gap: 59px;
+            }
+
+            @media(max-width: 1024px) {
+                grid-template-columns: auto;
+            }
+
+            .nmail-send {
+                @media(max-width: 1024px) {
+                    width: 552px;
+                }
+
+                @media(max-width: 480px) {
+                    width: 450px;
+                }
+
+                @media(max-width: 450px) {
+                    width: 420px;
+                }
+
+                @media(max-width: 425px) {
+                    width: 400px;
+                }
+
+                @media(max-width: 414px) {
+                    width: 370px;
+                }
+                @media(max-width: 400px){
+                    width: 100%;
+                }
+
+                .n-grey-24 {
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 24px;
+                    line-height: 35px;
+                    color: #575467;
+                    font-family: $kfont;
+
+                    @media(max-width: 480px) {
+                        font-size: 20px;
+                        line-height: 29px;
+                    }
+                }
+
+                .nsend-form {
+                    padding-bottom: 42px;
+
+                    // background-color: red;
+                    @media(max-width: 414px) {
+                        padding: 20px 20px 30px 20px;
+                    }
+                    @media(max-width: 400px){
+                        padding: 20px 0 30px 0;
+                    }
+
+                    .ninputs-container-1 {
+                        @media(max-width: 1366px) {
+                            grid-template-columns: 1fr;
+                            grid-gap: 16px;
+                        }
+
+                        .ninputs-1 {
+                            @media(max-width: 600px) {
+                                width: 100%;
+                            }
+
+                            #company-name {
+                                display: none;
+                            }
+
+                            .n-input {
+                                height: 62px;
+                                width: 339px;
+                                border-radius: 0px;
+
+                                @media(max-width: 1366px) {
+                                    width: 100%;
+                                }
+
+                                @media(max-width: 480px) {
+                                    font-size: 16px;
+                                }
+                            }
+
+                            .form-box {
+                                margin-top: 0;
+
+                                @media(max-width: 1440px) {
+                                    margin-top: 11px;
+                                }
+
+                                label {
+                                    .circle {
+                                        border: 2px solid #DEDEE7;
+                                        background: #E9E9F1;
+                                    }
+
+                                    span {
+                                        color: #2A263C;
+                                        user-select: none;
+
+                                        @media(max-width: 480px) {
+                                            font-size: 16px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                        .ntextarea-wrapper {
+                            @media(max-width: 600px) {
+                                width: 100%;
+                            }
+
+                            .n-textarea {
+                                width: 370px;
+                                height: 224px;
+                                border-radius: 0px;
+
+                                @media(max-width: 1366px) {
+                                    width: 100%;
+                                }
+
+                                @media(max-width: 480px) {
+                                    font-size: 16px;
+                                }
+                            }
+
+                            // File Upload
+                            .filefieldwrapper {
+                                display: none;
+
+                                .fileupwrapper {
+                                    width: 370px;
+
+                                    @media(max-width: 1366px) {
+                                        width: 100%;
+                                    }
+
+                                    .fileup {
+                                        position: relative;
+                                        height: 40px;
+                                        padding: 0 !important;
+                                        width: 370px;
+                                        border: none;
+                                        margin: 8px 0;
+                                        font-size: 0px;
+
+                                        @media(max-width: 1366px) {
+                                            width: 100%;
+                                        }
+
+                                        &::after {
+                                            padding: 18px 10px 7px 10px;
+                                            color: #999;
+                                            font-size: 14px;
+                                            font-family: $kfont;
+                                            border-radius: 5px;
+                                            position: absolute;
+                                            left: 1px;
+                                            top: 1px;
+                                            background-color: #ffffff;
+                                            width: calc(100% - 80px);
+                                            height: 39px;
+                                            content: attr(data-text);
+                                            border: 1px solid #dedee7;
+
+                                        }
+
+                                        &::before {
+                                            color: #D03A3B;
+                                            content: "업로드";
+                                            position: absolute;
+                                            top: 0;
+                                            right: 0;
+                                            display: inline-block;
+                                            height: 40px;
+                                            background: rgba(208, 58, 59, 0.1);
+                                            font-weight: 500;
+                                            z-index: 25;
+                                            font-size: 16px;
+                                            line-height: 40px;
+                                            padding: 0 15px;
+                                            pointer-events: none;
+                                            border-radius: 5px;
+                                            transition: 0.5s ease-in-out;
+                                        }
+
+                                        &::-webkit-file-upload-button {
+                                            visibility: hidden;
+                                        }
+                                    }
+                                }
+
+                                .plus-file-wrapper {
+                                    display: none;
+                                    text-align: right;
+                                    padding-right: 15px;
+
+                                    i {
+                                        font-size: 28px;
+                                        color: #92919C;
+                                        cursor: pointer;
+                                    }
+
+                                    #plus-file-input-field {
+                                        display: none;
+                                    }
+                                }
+                            }
+
+
+
+                            // File Upload
+                        }
+
+                    }
+
+                    .send-btn-container {
+                        .contac-submit-btn {
+                            text-align: center;
+                            color: #ffffff;
+                            padding: 14px 32px;
+                            background: linear-gradient(96.04deg, var(--c1, #A80304), var(--c2, #CF393A) 51%, var(--c1, #a10707)) var(--x, 0)/200%;
+                            box-shadow: 0px 21px 21px -9px rgba(168, 3, 4, 0.31);
+                            font-family: Noto Sans KR;
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 20px;
+                            line-height: 164.8%;
+                            text-align: center;
+                            color: #ffffff;
+                            cursor: pointer;
+                            text-transform: capitalize;
+                            transition: 0.3s ease;
+
+                            @media(max-width: 480px) {
+                                font-size: 18px;
+                            }
+
+                            &:hover {
+                                --x: 100%;
+                            }
+                        }
+                    }
+
+                }
+
+
+            }
+
+            .ncontacts {
+                @media(max-width: 1024px) {
+                    justify-items: left;
+                    width: 460px;
+                    margin-left: 45px;
+                }
+
+                @media(max-width: 480px) {
+                    width: 450px;
+                    margin-left: 0;
+                }
+
+                @media(max-width: 450px) {
+                    width: 420px;
+                    margin-left: 0;
+                }
+
+                @media(max-width: 425px) {
+                    width: 400px;
+                    margin-left: 0;
+                }
+
+                @media(max-width: 414px) {
+                    width: 370px;
+                    margin-left: 0;
+                }
+                @media(max-width: 400px){
+                    width: 100%;
+                }
+
+                .ngrey-24 {
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 24px;
+                    line-height: 35px;
+                    color: #575467;
+                    font-family: $kfont;
+
+                    @media(max-width: 480px) {
+                        font-size: 20px;
+                        line-height: 29px;
+                    }
+                }
+
+                .naddress-contact {
+                    @media(max-width: 1366px) {
+                        flex-direction: column;
+                    }
+
+                    @media(max-width: 1024px) {
+                        width: 100%;
+                    }
+
+                    .nmobile-address {
+                        grid-gap: 14px;
+
+                        @media(max-width: 1366px) {
+                            width: 100%;
+                        }
+
+                        .ncontact-info-1 {
+                            grid-gap: 19px;
+
+                            @media(max-width: 1152px) {
+                                grid-gap: 18px;
+                            }
+
+                            .location {
+                                width: 28px;
+                                height: 26px;
+                                margin-top: 7px;
+                                margin-left: 2px;
+                            }
+
+                            .info-text {
+
+
+                                .nicon-text {
+                                    max-width: 310px;
+                                    position: relative;
+                                    @media(max-width: 400px){
+                                        max-width: 250px;
+                                    }
+
+                                    .nblack-19 {
+                                        font-style: normal;
+                                        font-weight: 500;
+                                        font-size: 22px;
+                                        line-height: 34px;
+                                        color: #575467;
+                                        margin: 0;
+                                        font-family: $kfont;
+
+                                        @media(max-width: 480px) {
+                                            font-size: 18px;
+                                            line-height: 30px;
+                                        }
+                                    }
+
+                                    .copyimage {
+                                        width: 18px;
+                                        height: 20px;
+                                        position: absolute;
+                                        right: 38px;
+                                        top: 5px;
+                                        content: "";
+
+                                        @media(max-width: 1152px) {
+                                            right: 45px;
+                                        }
+
+                                        @media(max-width: 480px) {
+                                            right: 130px;
+                                            top: 1px;
+                                        }
+                                        @media(max-width: 400px){
+                                            right: 0;
+                                            left: 250px;
+                                        }
+                                    }
+                                }
+
+                                .ngrey-16 {
+                                    font-style: normal;
+                                    font-weight: normal;
+                                    font-size: 16px;
+                                    line-height: 23px;
+                                    color: #838291;
+                                    font-family: $kfont;
+
+                                    @media(max-width: 480px) {
+                                        font-size: 15px;
+                                        line-height: 22px;
+                                    }
+                                    @media(max-width: 400px){
+                                        max-width: 240px;
+                                    }
+
+                                    span {
+                                        color: #CD0C0D;
+                                    }
+                                }
+
+
+                            }
+                        }
+
+                        .ncontact-info-contaier {
+                            .ncontact-info-2 {
+                                @media(max-width: 1152px) {
+                                    grid-gap: 17px;
+                                }
+
+                                position: relative;
+
+                                .ncopy {
+                                    width: 30px;
+                                    height: 28px;
+
+                                    @media(max-width: 1152px) {
+                                        width: 32px;
+                                    }
+
+                                    height: 28px;
+                                }
+
+                                .nblack-22 {
+                                    font-style: normal;
+                                    font-weight: 500;
+                                    font-size: 22px;
+                                    line-height: 32px;
+                                    color: #575467;
+                                    font-family: $kfont;
+                                    margin: 0;
+
+                                    @media(max-width: 480px) {
+                                        font-size: 18px;
+                                        line-height: 26px;
+                                    }
+                                }
+
+                                .copyContact {
+                                    position: absolute;
+                                    left: 44%;
+                                    content: "";
+                                    top: 6px;
+                                    width: 18px;
+                                    height: 20px;
+
+                                    @media(max-width: 1152px) {
+                                        top: 9px;
+                                        left: 42%;
+                                    }
+
+                                    @media(max-width: 480px) {
+                                        top: 5px;
+                                        left: 38%;
+                                    }
+
+                                    @media(max-width: 450px) {
+                                        top: 5px;
+                                        left: 40%;
+                                    }
+
+                                    @media(max-width: 425px) {
+                                        left: 43%;
+                                    }
+
+                                    @media(max-width: 414px) {
+                                        left: 46%;
+                                    }
+                                    @media(max-width: 400px){
+                                        left: 56%;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    .ncontact-btn-1 {
+                        @media(max-width: 1366px) {
+                            width: 100%;
+                        }
+
+                        a {
+                            text-decoration: none;
+                            width: 100%;
+                            height: 58px;
+                            background: rgba(208, 58, 59, 0.1);
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 17px;
+                            line-height: 26px;
+                            text-align: center;
+                            color: #D03A3B;
+                            padding: 16px 10px;
+                        }
+                    }
+                }
+
+
+            }
+        }
+    }
+
+}
